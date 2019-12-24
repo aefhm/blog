@@ -1,0 +1,60 @@
+/* h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 200;
+  max-width: 600px;
+}
+*/
+
+html {
+  background-color: seashell;
+  font-family: 'Slabo 27px', serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas: 
+    "nav main main main";
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.main {
+  grid-area: main;
+}
+
+svg {
+  width: 50px;
+  padding: 10px;
+}
+
+nav {
+  grid-area: nav;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul a {
+  font-size: small;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bolder;
+  color: inherit;
+  text-decoration: none;
+  text-transform: UPPERCASE;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
