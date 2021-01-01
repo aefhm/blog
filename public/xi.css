@@ -8,7 +8,7 @@
 
 html {
   background-color: seashell;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 body {
@@ -42,7 +42,7 @@ nav ul {
 
 nav ul a {
   font-size: small;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: bolder;
   color: inherit;
   text-decoration: none;
