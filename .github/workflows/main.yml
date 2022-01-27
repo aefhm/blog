@@ -20,9 +20,6 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-      - shell: 'bash'
-        run: |-
-          echo ${{ secrets.GCP_CREDENTIALS_JSON }} | wc -c
 
       - id: 'auth'
         uses: 'google-github-actions/auth@v0'
