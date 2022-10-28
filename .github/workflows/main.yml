@@ -9,24 +9,3 @@ on:
 
   # allows manual trigger
   workflow_dispatch:
-
-jobs:
-  upload-job:
-    name: upload
-    environment: CI
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v2
-
-      - id: 'auth'
-        uses: 'google-github-actions/auth@v0'
-        with:
-          credentials_json: ${{ secrets.GCP_CREDENTIALS_JSON }}
-
-      - id: 'upload-folder'
-        uses: 'google-github-actions/upload-cloud-storage@v0'
-        with:
-          path: 'public'
-          parent: false
-          destination: 'xizhang-page'
