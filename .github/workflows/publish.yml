@@ -19,5 +19,4 @@ jobs:
           directory: public
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           branch: main
-          workingDirectory: public
           wranglerVersion: '3'
