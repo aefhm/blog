@@ -25,8 +25,7 @@ body {
 
 .main {
   grid-area: main;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 36px;
 }
 
 svg {
