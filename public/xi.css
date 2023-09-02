@@ -21,6 +21,7 @@ body {
 }
 
 header {
+  font-size: larger;
   grid-area: header;
   text-align: center;
 }
