@@ -36,7 +36,7 @@ header {
 }
 
 svg {
-  width: 10px;
+  width: 16px;
   padding: 10px;
 }
 
@@ -64,5 +64,8 @@ nav ul a {
 
 .social-media {
   padding-left: 30px;
-  text-decoration: none;
+
+  a {
+    text-decoration: none;
+  }
 }
