@@ -61,3 +61,7 @@ nav ul a {
   display: flex;
   justify-content: center;
 }
+
+.social-media {
+  padding-left: 30px;
+}
