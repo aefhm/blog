@@ -63,9 +63,6 @@ nav ul a {
 }
 
 .social-media {
+  display: flex;
   padding-left: 30px;
-
-  a {
-    text-decoration: none;
-  }
 }
