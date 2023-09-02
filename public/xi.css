@@ -57,11 +57,6 @@ nav ul a {
   text-transform: UPPERCASE;
 }
 
-.social-links {
-  display: flex;
-  justify-content: center;
-}
-
 .description {
   display: flex;
   justify-content: center;
