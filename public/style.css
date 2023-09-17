@@ -7,6 +7,41 @@ header {
   text-align: center;
 }
 
+@media screen and (min-width: 16em) and (max-width: 25em) {
+  article {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 25em) {
+  article {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+    text-align: start;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul a {
+    display: unset;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: start;
+  }
+}
+
 .bold {
   font-weight: 600;
 }
@@ -22,7 +57,6 @@ nav li {
 
 nav ul {
   border: 1px solid black;
-  display: flex;
   list-style: none;
   padding: unset;
 }
@@ -47,8 +81,4 @@ nav ul a:hover {
 .recipes {
   list-style: none;
   padding-inline-start: 0px;
-}
-
-.social-media {
-  display: flex;
 }
