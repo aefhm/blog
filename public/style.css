@@ -22,6 +22,14 @@ body {
     display: flex;
     justify-content: center;
   }
+
+  nav ul li {
+    padding: 1px;
+  }
+
+  nav ul a {
+    border: solid 2px black;
+  }
 }
 
 @media screen and (min-width: 25em) {
@@ -34,9 +42,11 @@ body {
 
   nav ul {
     display: flex;
+    border: 1px solid black;
   }
 
   nav ul a {
+    border: 1px solid black;
     display: unset;
   }
 
@@ -60,13 +70,11 @@ nav li {
 }
 
 nav ul {
-  border: 1px solid black;
   list-style: none;
   padding: unset;
 }
 
 nav ul a {
-  border: 1px solid black;
   color: inherit;
   display: block;
   font-size: small;
