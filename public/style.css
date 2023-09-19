@@ -40,6 +40,10 @@ body {
     text-align: start;
   }
 
+  aside {
+    margin-top: 2em;
+  }
+
   nav ul {
     display: flex;
     border: 1px solid black;
