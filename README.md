@@ -1,5 +1,4 @@
 ![GitHub deployments](https://img.shields.io/github/deployments/aefhm/blog/blog%20(production))
-
 ## Why
 I believe in long term content and that pages should [last](https://jeffhuang.com/designed_to_last/).
 
