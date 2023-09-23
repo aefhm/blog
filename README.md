@@ -9,5 +9,5 @@ This static site is deployed to [Pages](https://developers.cloudflare.com/pages/
 This site follows the structure below.
 
 - `/recipes/{recipe.html}`
-- `/articles/{article.html}`
+- `/writings/{writing.html}`
 - `/about`
