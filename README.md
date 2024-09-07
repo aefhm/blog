@@ -1,10 +1,10 @@
-![GitHub deployments](https://img.shields.io/github/deployments/aefhm/blog/blog%20(production))
+![GitHub deployments](https://img.shields.io/github/deployments/aefhm/blog/blog%20(production)?label=Deployment)
+
 ## Why
 I believe in long term content and that pages should [last](https://jeffhuang.com/designed_to_last/).
 
 ## Where
-This static site is deployed to [Pages](https://developers.cloudflare.com/pages/) with naked domain redirect,
-and occasionally backed up to [GCP](https://cloud.google.com/source-repositories/docs).
+This static site is deployed to [Pages](https://developers.cloudflare.com/pages/) with naked domain redirect.
 
 ## How
 This site follows the structure below.
